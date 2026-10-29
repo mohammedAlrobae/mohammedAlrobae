@@ -28,14 +28,13 @@ def percentile(values, q):
 
 def ascii_lines(ramp, art_bg):
     if not os.path.exists(AVATAR):
-        # Fallback if no avatar exists yet
         return [" " * COLS for _ in range(ROWS)]
 
     img = Image.open(AVATAR)
     if img.mode == "RGBA":
         bbox = img.split()[3].getbbox()
         if bbox:
-            img = img.crop(bbox)  # trim empty margins
+            img = img.crop(bbox)
         w, h = img.size
         img = img.crop((0, 0, w, max(1, int(h * HEAD_CROP))))
         gray, a = img.convert("L"), img.split()[3]
@@ -65,7 +64,7 @@ def ascii_lines(ramp, art_bg):
 
 
 def key_markup(key):
-    """Languages.Real -> <tspan class="key">Languages</tspan>.<tspan class="key">Real</tspan>"""
+    """Stack.AI_&_LLMs -> <tspan class="key">Stack</tspan>.<tspan class="key">AI_&_LLMs</tspan>"""
     return ".".join(f'<tspan class="key">{escape(part)}</tspan>' for part in key.split("."))
 
 
@@ -102,24 +101,24 @@ def jdots(length, value):
 
 
 def stat_lines():
-    repos, contrib, stars, commits, followers = "11", "11", "0", "0", "1"
-    loc, loc_add, loc_del = "0", "0", "0"
+    repos, contrib, primary, commits, domain = "14", "14", "Python", "112", "AI &amp; ML"
+    loc, loc_add, loc_del = "284,358", "306,694", "22,336"
     l1 = (
-        f'<tspan x="390" y="470" class="cc">. </tspan><tspan class="key">Repos</tspan>:'
+        f'<tspan x="390" y="460" class="cc">. </tspan><tspan class="key">Repos</tspan>:'
         f'<tspan class="cc" id="repo_data_dots">{jdots(6, repos)}</tspan>'
-        f'<tspan class="value" id="repo_data">{repos}</tspan> '
-        f'{{<tspan class="key">Contributed</tspan>: <tspan class="value" id="contrib_data">{contrib}</tspan>}} | '
-        f'<tspan class="key">Stars</tspan>:'
-        f'<tspan class="cc" id="star_data_dots">{jdots(14, stars)}</tspan>'
-        f'<tspan class="value" id="star_data">{stars}</tspan>'
+        f'<tspan class="value" id="repo_data">{escape(repos)}</tspan> '
+        f'{{<tspan class="key">Contributed</tspan>: <tspan class="value" id="contrib_data">{escape(contrib)}</tspan>}} | '
+        f'<tspan class="key">Primary</tspan>:'
+        f'<tspan class="cc" id="primary_data_dots">{jdots(10, primary)}</tspan>'
+        f'<tspan class="value" id="primary_data">{escape(primary)}</tspan>'
     )
     l2 = (
-        f'<tspan x="390" y="490" class="cc">. </tspan><tspan class="key">Commits</tspan>:'
-        f'<tspan class="cc" id="commit_data_dots">{jdots(23, commits)}</tspan>'
-        f'<tspan class="value" id="commit_data">{commits}</tspan> | '
-        f'<tspan class="key">Followers</tspan>:'
-        f'<tspan class="cc" id="follower_data_dots">{jdots(10, followers)}</tspan>'
-        f'<tspan class="value" id="follower_data">{followers}</tspan>'
+        f'<tspan x="390" y="485" class="cc">. </tspan><tspan class="key">Commits</tspan>:'
+        f'<tspan class="cc" id="commit_data_dots">{jdots(21, commits)}</tspan>'
+        f'<tspan class="value" id="commit_data">{escape(commits)}</tspan> | '
+        f'<tspan class="key">Domain</tspan>:'
+        f'<tspan class="cc" id="domain_data_dots">{jdots(11, domain)}</tspan>'
+        f'<tspan class="value" id="domain_data">{domain}</tspan>'
     )
     l3 = (
         f'<tspan x="390" y="510" class="cc">. </tspan><tspan class="key">Lines of Code on GitHub</tspan>:'
@@ -161,17 +160,19 @@ def build():
             info_line(110, "Kernel", "Machine Learning Engineer"),
             info_line(130, "IDE", "VS Code, Antigravity"),
             blank_line(150),
-            info_line(170, "Languages.Programming", "Python, Java, SQL"),
-            info_line(190, "Languages.Frameworks", "Next.js, React, FastAPI, PyTorch"),
-            info_line(210, "Languages.Real", "Arabic, English"),
-            blank_line(230),
-            info_line(250, "Approach", "Vibe Coding with Production Rigor"),
-            info_line(270, "Hobbies.Software", "AI Voice Agents & Automation"),
-            header_line(310, "- Contact"),
-            info_line(330, "Email.Personal", "moalrobae@gmail.com"),
-            info_line(350, "LinkedIn", "mohammed-robae"),
-            info_line(370, "GitHub", "mohammedAlrobae"),
-            header_line(450, "- GitHub Stats"),
+            info_line(170, "Languages.Programming", "Python, Java, SQL, TypeScript"),
+            info_line(190, "Stack.AI_&_LLMs", "PyTorch, LangGraph, LangChain, MCP, RAG"),
+            info_line(210, "Stack.MLOps_&_Cloud", "Docker, Kubernetes, FastAPI, MLflow"),
+            info_line(230, "Stack.Web_&_Voice", "Next.js, React, LiveKit, Streamlit"),
+            info_line(250, "Languages.Real", "Arabic, English"),
+            blank_line(270),
+            info_line(290, "Approach", "Vibe Coding with Production Rigor"),
+            info_line(310, "Hobbies.Software", "AI Voice Agents & Automation"),
+            header_line(340, "- Contact"),
+            info_line(360, "Email.Personal", "moalrobae@gmail.com"),
+            info_line(380, "LinkedIn", "mohammed-robae"),
+            info_line(400, "GitHub", "mohammedAlrobae"),
+            header_line(430, "- GitHub Stats"),
             *stat_lines(),
         ]
         svg = f"""<?xml version='1.0' encoding='UTF-8'?>
@@ -206,4 +207,3 @@ text, tspan {{white-space: pre;}}
 
 if __name__ == "__main__":
     build()
-
