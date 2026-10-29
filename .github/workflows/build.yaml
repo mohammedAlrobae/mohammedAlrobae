@@ -28,6 +28,19 @@ jobs:
       - name: Install dependencies
         run: python -m pip install -r cache/requirements.txt
 
+      - name: Verify Secret
+        env:
+          TOKEN: ${{ secrets.ACCESS_TOKEN }}
+        run: |
+          if [ -z "$TOKEN" ]; then
+            echo "::error title=Missing Secret::ACCESS_TOKEN secret is not set in Repository Settings -> Secrets and variables -> Actions!"
+            echo "### ⚠️ ACCESS_TOKEN Secret Missing" >> $GITHUB_STEP_SUMMARY
+            echo "Please go to **Settings > Secrets and variables > Actions** and add \`ACCESS_TOKEN\`." >> $GITHUB_STEP_SUMMARY
+            exit 1
+          else
+            echo "ACCESS_TOKEN is present (length: ${#TOKEN})"
+          fi
+
       - name: Update SVG stats & dynamic uptime
         env:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
