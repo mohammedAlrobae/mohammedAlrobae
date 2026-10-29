@@ -7,9 +7,4 @@
   </picture>
 </a>
 
-<br/>
-
-> *“AI-accelerated development with production rigor — shipping fast through vibe coding while enforcing security, robust architecture, and code integrity.”*
-
 </div>
-
