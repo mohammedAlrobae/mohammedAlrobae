@@ -10,7 +10,13 @@ import hashlib
 # Account permissions: read:Followers, read:Starring, read:Watching
 # Repository permissions: read:Commit statuses, read:Contents, read:Issues, read:Metadata, read:Pull Requests
 # Issues and pull requests permissions not needed at the moment, but may be used in the future
-HEADERS = {'authorization': 'token '+ os.environ['ACCESS_TOKEN']}
+raw_token = os.environ.get('ACCESS_TOKEN', '').strip()
+if raw_token.startswith('Bearer ') or raw_token.startswith('token '):
+    HEADERS = {'authorization': raw_token}
+elif raw_token.startswith('github_pat_'):
+    HEADERS = {'authorization': f'Bearer {raw_token}'}
+else:
+    HEADERS = {'authorization': f'token {raw_token}'}
 USER_NAME = os.environ.get('USER_NAME', 'mohammedAlrobae')
 QUERY_COUNT = {'user_getter': 0, 'follower_getter': 0, 'graph_repos_stars': 0, 'recursive_loc': 0, 'graph_commits': 0, 'loc_query': 0}
 
