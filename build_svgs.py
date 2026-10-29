@@ -104,7 +104,7 @@ def stat_lines():
     repos, contrib, primary, commits, domain = "14", "14", "Python", "112", "AI &amp; ML"
     loc, loc_add, loc_del = "284,358", "306,694", "22,336"
     l1 = (
-        f'<tspan x="390" y="460" class="cc">. </tspan><tspan class="key">Repos</tspan>:'
+        f'<tspan x="390" y="465" class="cc">. </tspan><tspan class="key">Repos</tspan>:'
         f'<tspan class="cc" id="repo_data_dots">{jdots(6, repos)}</tspan>'
         f'<tspan class="value" id="repo_data">{escape(repos)}</tspan> '
         f'{{<tspan class="key">Contributed</tspan>: <tspan class="value" id="contrib_data">{escape(contrib)}</tspan>}} | '
@@ -113,7 +113,7 @@ def stat_lines():
         f'<tspan class="value" id="primary_data">{escape(primary)}</tspan>'
     )
     l2 = (
-        f'<tspan x="390" y="485" class="cc">. </tspan><tspan class="key">Commits</tspan>:'
+        f'<tspan x="390" y="488" class="cc">. </tspan><tspan class="key">Commits</tspan>:'
         f'<tspan class="cc" id="commit_data_dots">{jdots(21, commits)}</tspan>'
         f'<tspan class="value" id="commit_data">{escape(commits)}</tspan> | '
         f'<tspan class="key">Domain</tspan>:'
@@ -162,17 +162,18 @@ def build():
             blank_line(150),
             info_line(170, "Languages.Programming", "Python, Java, SQL, TypeScript"),
             info_line(190, "Stack.AI_&_LLMs", "PyTorch, LangGraph, LangChain, MCP, RAG"),
-            info_line(210, "Stack.MLOps_&_Cloud", "Docker, Kubernetes, FastAPI, MLflow"),
-            info_line(230, "Stack.Web_&_Voice", "Next.js, React, LiveKit, Streamlit"),
-            info_line(250, "Languages.Real", "Arabic, English"),
-            blank_line(270),
-            info_line(290, "Approach", "Vibe Coding with Production Rigor"),
-            info_line(310, "Hobbies.Software", "AI Voice Agents & Automation"),
-            header_line(340, "- Contact"),
-            info_line(360, "Email.Personal", "moalrobae@gmail.com"),
-            info_line(380, "LinkedIn", "mohammed-robae"),
-            info_line(400, "GitHub", "mohammedAlrobae"),
-            header_line(430, "- GitHub Stats"),
+            info_line(210, "Stack.Voice_AI", "LiveKit, Silero VAD, Whisper, Deepgram"),
+            info_line(230, "Stack.MLOps_&_Cloud", "Docker, Kubernetes, MLflow, BentoML"),
+            info_line(250, "Stack.Web", "Next.js, React, FastAPI, Streamlit"),
+            info_line(270, "Languages.Real", "Arabic, English"),
+            blank_line(290),
+            info_line(310, "Approach", "Vibe Coding with Production Rigor"),
+            info_line(330, "Hobbies.Software", "AI Voice Agents & Automation"),
+            header_line(355, "- Contact"),
+            info_line(375, "Email.Personal", "moalrobae@gmail.com"),
+            info_line(395, "LinkedIn", "mohammed-robae"),
+            info_line(415, "GitHub", "mohammedAlrobae"),
+            header_line(440, "- GitHub Stats"),
             *stat_lines(),
         ]
         svg = f"""<?xml version='1.0' encoding='UTF-8'?>
