@@ -45,7 +45,14 @@ jobs:
         env:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           USER_NAME: mohammedAlrobae
-        run: python today.py
+        run: |
+          python today.py 2>&1 | tee error.log || {
+            echo "### ❌ today.py failed with output:" >> $GITHUB_STEP_SUMMARY
+            echo '```' >> $GITHUB_STEP_SUMMARY
+            cat error.log >> $GITHUB_STEP_SUMMARY
+            echo '```' >> $GITHUB_STEP_SUMMARY
+            exit 1
+          }
 
       - name: Commit and push changes
         run: |-
