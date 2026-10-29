@@ -17,47 +17,47 @@ text, tspan {white-space: pre;}
 </style>
 <rect width="985px" height="530px" fill="#161b22" rx="15"/>
 <text x="15" y="24" fill="#c9d1d9" class="ascii" font-size="10px">
-<tspan x="15" y="24">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</tspan>
-<tspan x="15" y="36">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</tspan>
-<tspan x="15" y="48">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</tspan>
-<tspan x="15" y="60">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</tspan>
-<tspan x="15" y="72">@@@@@@@@@@@@@@@@@@@@@@$Baz|:~::;za&amp;%$@@@@@@@@@@@@@@@@@@@@@@@</tspan>
-<tspan x="15" y="84">@@@@@@@@@@@@@@@@@@@Ma;,             -zgW@@@@@@@@@@@@@@@@@@@@</tspan>
-<tspan x="15" y="96">@@@@@@@@@@@@@@@@#g:   -;rr;~~~--~;:.    rM@@@@@@@@@@@@@@@@@@</tspan>
-<tspan x="15" y="108">@@@@@@@@@@@@@@@*. ,;reoa*m**azzrrrrr;;:~. ;M@@@@@@@@@@@@@@@@</tspan>
-<tspan x="15" y="120">@@@@@@@@@@@@@#; -z**ggg&amp;88888&amp;&amp;&amp;gggggg**ae:.o@@@@@@@@@@@@@@@</tspan>
-<tspan x="15" y="132">@@@@@@@@@@@@$:.|ammggg&amp;88BBBBBBBBB88&amp;&amp;gm***o-r@@@@@@@@@@@@@@</tspan>
-<tspan x="15" y="144">@@@@@@@@@@@@*~zammgg&amp;&amp;8BBMMMMMMMBB888&amp;&amp;gm*aoa~*@@@@@@@@@@@@@</tspan>
-<tspan x="15" y="156">@@@@@@@@@@@@**mmmmg&amp;&amp;8BBMMMBBBMBBBB888&amp;gm*aoez;@@@@@@@@@@@@@</tspan>
-<tspan x="15" y="168">@@@@@@@@@@@@&amp;mmmmmg&amp;88BBBBB8BBBBBB888&amp;gmm*aoeze$@@@@@@@@@@@@</tspan>
-<tspan x="15" y="180">@@@@@@@@@@@@&amp;mmmmmg&amp;&amp;8BMWWWWMMBBBBB888&amp;&amp;gm*ozre@@@@@@@@@@@@@</tspan>
-<tspan x="15" y="192">@@@@@@@@@@@@B*gmmm**ozezzeom&amp;MMMMMMBgmaeez|rzre@@@@@@@@@@@@@</tspan>
-<tspan x="15" y="204">@@@@@@@@@@@$%*&amp;mmozezzez|--;rm8B8&amp;a;,,-~~-,-~|a@@@@@@@@@@@@@</tspan>
-<tspan x="15" y="216">@@@@@@@@@#amga&amp;m**ma;rr:-r|:e*8M8z~-zz~-;~~:~|zo$@@@@@@@@@@@</tspan>
-<tspan x="15" y="228">@@@@@@@@@Wz&amp;m*&amp;mg&amp;&amp;mze*rrmaagg&amp;B8zr|eo:~|-.:reze@@@@@@@@@@@@</tspan>
-<tspan x="15" y="240">@@@@@@@@@@mmraBmg8BBB8&amp;8&amp;&amp;8B8&amp;&amp;BBazaaam*ooaaoerm@@@@@@@@@@@@</tspan>
-<tspan x="15" y="252">@@@@@@@@@@8oeg8gg8BBMMMBBMMM8&amp;&amp;BM*z*g&amp;&amp;&amp;8&amp;g*ooeW@@@@@@@@@@@@</tspan>
-<tspan x="15" y="264">@@@@@@@@@@W*g**gg8BBMMMMMMMM&amp;&amp;8MMgoag&amp;888&amp;g*oea@@@@@@@@@@@@@</tspan>
-<tspan x="15" y="276">@@@@@@@@@@@W&amp;gra&amp;&amp;8BBMMMMBB&amp;&amp;&amp;&amp;W88zzg&amp;&amp;&amp;&amp;&amp;mae|M@@@@@@@@@@@@@</tspan>
-<tspan x="15" y="288">@@@@@@@@@@@@%M8|*&amp;8BBMMMMMMB*z;|r,.rm&amp;8&amp;&amp;g*o;*@@@@@@@@@@@@@@</tspan>
-<tspan x="15" y="300">@@@@@@@@@@@@@@@z;og8BMMM8*a|:;:~r:~-~ramm*a|:@@@@@@@@@@@@@@@</tspan>
-<tspan x="15" y="312">@@@@@@@@@@@@@@@W,|zm88Bm~ -|eeoez;:;~..:*o| g@@@@@@@@@@@@@@@</tspan>
-<tspan x="15" y="324">@@@@@@@@@@@@@@@@o-~rag8z|aoeoeezeer-,r|~r~ ;@@@@@@@@@@@@@@@@</tspan>
-<tspan x="15" y="336">@@@@@@@@@@@@@@@@M~ -;emg8BB&amp;*aeeee::zee|. ,W@@@@@@@@@@@@@@@@</tspan>
-<tspan x="15" y="348">@@@@@@@@@@@@@@@@Wm: ,-zmm888g*e;;|zooe;. .M@@@@@@@@@@@@@@@@@</tspan>
-<tspan x="15" y="360">@@@@@@@@@@@@@@@@Mg8r  ,,~om*aaooo;;~::  r%@@@@@@@@@@@@@@@@@@</tspan>
-<tspan x="15" y="372">@@@@@@@@@@@@@@@$&amp;g&amp;go~   .,~~:,,.      ;@@@@@@@@@@@@@@@@@@@@</tspan>
-<tspan x="15" y="384">@@@@@@@@@@@@@@M*g&amp;8&amp;m*e~,              a@@@@@@@@@@@@@@@@@@@@</tspan>
-<tspan x="15" y="396">@@@@@@@%8e~*&amp;*amg8BB&amp;mm*oz;~-,       ,.m@@@@@@@@@@@@@@@@@@@@</tspan>
-<tspan x="15" y="408">@@@@@Bz.    -g8gg8BMB8&amp;&amp;mmmmaaer:-, ,--;zgB$@@@@@@@@@@@@@@@@</tspan>
-<tspan x="15" y="420">@@W*~   ..   -z*8MWMMB88&amp;&amp;&amp;ggmmaer:-~--~;- -o8W#@@@@@@@@@@@@</tspan>
-<tspan x="15" y="432">e;,      ...   .:e&amp;MWWMBB8&amp;ggm**or;;:-:~;:     .~r*M#@@@@@@@</tspan>
-<tspan x="15" y="444">...         ...    -;eag8BB&amp;***aeeoo:~|:~.          ,:egM$@@</tspan>
-<tspan x="15" y="456">              ..        .-~~~~~~~:;~.                    ,|*</tspan>
-<tspan x="15" y="468">                   ....</tspan>
-<tspan x="15" y="480">                           .</tspan>
-<tspan x="15" y="492"/>
-<tspan x="15" y="504"/>
+<tspan x="15" y="24">                ,:|rzz|;|;;||;:;~-.</tspan>
+<tspan x="15" y="36">            .~;|r|:~-,,-,,,----~~:;::-</tspan>
+<tspan x="15" y="48">          ,||;;~--~~~~~:::;||:~~~,,-~;|;.</tspan>
+<tspan x="15" y="60">        -;:~,-:|rr|:;;|r|rzezr|;;:::~-,:;~,</tspan>
+<tspan x="15" y="72">      -r:~~;rzeoaaooezzzzoammaerrrr|r;~--~;;</tspan>
+<tspan x="15" y="84">     :r~;oa*mmgg&amp;&amp;88&amp;mmgmm*mgg&amp;&amp;&amp;&amp;gg&amp;maz|~,:;-</tspan>
+<tspan x="15" y="96">    ;z;em&amp;g&amp;&amp;&amp;88BMWWMMMMMMW%WWW%%WWWMMMB&amp;*z~-|~</tspan>
+<tspan x="15" y="108">   ~er*&amp;&amp;&amp;g&amp;&amp;8BMW%%%#############%%WWMMBBB8mr;z-</tspan>
+<tspan x="15" y="120">   oog8&amp;gg&amp;&amp;8BMWW%%############%%%%WWWMMBB88ge|z</tspan>
+<tspan x="15" y="132">  ,8BB&amp;ggg&amp;88BMWW%%#############%%%WWWMMBB88&amp;*zz-</tspan>
+<tspan x="15" y="144">  ~#W8&amp;&amp;g&amp;&amp;8BMMWW%%%%############%%%WWWMBB88&amp;gga,</tspan>
+<tspan x="15" y="156">  :#M8&amp;&amp;&amp;&amp;8BBMMMW%%%%%%#######%%%%%%WWWWMB88&amp;&amp;&amp;&amp;,</tspan>
+<tspan x="15" y="168">  :#MB&amp;&amp;g&amp;8BBBMWWW%%%%########%%%%%WWWWMMB88&amp;&amp;&amp;&amp;~</tspan>
+<tspan x="15" y="180">  -%WM8&amp;&amp;&amp;&amp;8BW%%####################%WWMMB8&amp;&amp;&amp;g&amp;:</tspan>
+<tspan x="15" y="192">   B#M8&amp;mazeaaaa*gBW#$$$$$$$$$##%WBBB&amp;mag88&amp;ggmg.</tspan>
+<tspan x="15" y="204">-e;&amp;$WBmrrrzeez|;;|zmW%####%Bmorzzzzeeeeoo*ggmm*zo~</tspan>
+<tspan x="15" y="216">o8gg#%B*aoeeeeoooaoeea8%##%8*ezrrre*a**mg*omgg*gMWa</tspan>
+<tspan x="15" y="228">e&amp;88%M8g*z;|a;--oWgmgomW##M&amp;8ma8*-,,er|em&amp;&amp;g&amp;gmMMWg</tspan>
+<tspan x="15" y="240">~8gg%B&amp;&amp;gm*mg&amp;mgMB&amp;&amp;gmgM#%M8B&amp;&amp;88*am&amp;*om8BM8&amp;&amp;m&amp;BWe</tspan>
+<tspan x="15" y="252"> ggm%M88BBB88BBMMMMBgmgM%%MBMWWMBMMMBMW%WWWB&amp;8M8MM,</tspan>
+<tspan x="15" y="264"> m&amp;mWM88BMWW%%%%%%WBgmgB%%MBM%%%%%%####%%WWB&amp;&amp;MM%o</tspan>
+<tspan x="15" y="276"> |B&amp;BM8BBW%%%%%%%%WBmm&amp;M#%MBBW##########%WM8&amp;*MWB,</tspan>
+<tspan x="15" y="288">  mW&amp;MB8BMW%%#%%%%W&amp;*g8W##WMBB%########%%WB&amp;ma%%;</tspan>
+<tspan x="15" y="300">  -g&amp;8B88BMW%#%%%WBm*mM#$$%g&amp;8MW%#####%WMB8&amp;zgWa</tspan>
+<tspan x="15" y="312">    ,*B888MW%%%%%WB&amp;oza8B8memW##W%###%WMB8gar:,</tspan>
+<tspan x="15" y="324">     ~mm&amp;&amp;8MWW%WMBmz;,.;*r-::zmM%%%%%%WB&amp;&amp;*rr</tspan>
+<tspan x="15" y="336">      ze*g8BMBgoz|:|zoeamma*or;|oa&amp;MWWB&amp;gare:</tspan>
+<tspan x="15" y="348">      ~orag88*;~-~roaa*mmgma**a|~;|gMBmmer;z</tspan>
+<tspan x="15" y="360">       r;|om&amp;aag&amp;oreaaoaeomm*oem&amp;gom8mze;;|:</tspan>
+<tspan x="15" y="372">       .z~;r*&amp;888&amp;mo*&amp;BMBBM8mm8MMMB&amp;or;:-,*;</tspan>
+<tspan x="15" y="384">        ;r-~;og8888gooeeeeoam&amp;888BBa;~-. ;8r</tspan>
+<tspan x="15" y="396">         -z,-;ra&amp;8B8&amp;gmoa*g88BBBB&amp;*r.,  |&amp;B*</tspan>
+<tspan x="15" y="408">          :o~,,-roa*a*m&amp;&amp;8mm**g&amp;go-,  -o8B88r</tspan>
+<tspan x="15" y="420">           ~o-..-~~|rrrzz|||:;;;-,  -z&amp;BMMM8&amp;a:</tspan>
+<tspan x="15" y="432">             e:  ,,-;:;:~~----,.  ~zgBBBMWM8g&amp;&amp;*|,</tspan>
+<tspan x="15" y="444">             |8r:,. ..-, .    .-|a&amp;BBMMWWWWB&amp;88BB&amp;ar-</tspan>
+<tspan x="15" y="456">          .~~zg*aer;:~--,,-:;r*&amp;BMMWWWW%%%WM8BMMWWMBBgr|;~,-</tspan>
+<tspan x="15" y="468">        -~r~|;gm*aa**mmmmg&amp;8BMMMMWWWWW%%#%%MBBMWWW%#8z;;;;|r</tspan>
+<tspan x="15" y="480">     .~;~::|:|8m****mg8BMMMMMMWW%%%%%%####%WMMMW%#Wa:::~~:::</tspan>
+<tspan x="15" y="492">  .~;|:--;:z r&amp;gm*mmmg&amp;BMMMWWWW%%%%%%#####%%%%WM&amp;o:~~~~;;;;;</tspan>
+<tspan x="15" y="504">-:||:~-~:;;|-;mg&amp;mmg&amp;&amp;&amp;8BBMMMWW%%%%%#####%WM&amp;*e|~-~~::;;;;:;</tspan>
 </text>
 <text x="390" y="30" fill="#c9d1d9">
 <tspan x="390" y="30">mohammedAlrobae</tspan> --------------------------------------------
@@ -79,7 +79,7 @@ text, tspan {white-space: pre;}
 <tspan x="390" y="370" class="cc">. </tspan><tspan class="key">GitHub</tspan>:<tspan class="cc"> .................................. </tspan><tspan class="value">mohammedAlrobae</tspan>
 <tspan x="390" y="450">- GitHub Stats</tspan> ---------------------------------------------
 <tspan x="390" y="470" class="cc">. </tspan><tspan class="key">Repos</tspan>:<tspan class="cc" id="repo_data_dots"> .... </tspan><tspan class="value" id="repo_data">11</tspan> {<tspan class="key">Contributed</tspan>: <tspan class="value" id="contrib_data">11</tspan>} | <tspan class="key">Stars</tspan>:<tspan class="cc" id="star_data_dots"> ............. </tspan><tspan class="value" id="star_data">0</tspan>
-<tspan x="390" y="490" class="cc">. </tspan><tspan class="key">Commits</tspan>:<tspan class="cc" id="commit_data_dots"> .................... </tspan><tspan class="value" id="commit_data">112</tspan> | <tspan class="key">Followers</tspan>:<tspan class="cc" id="follower_data_dots"> ......... </tspan><tspan class="value" id="follower_data">1</tspan>
+<tspan x="390" y="490" class="cc">. </tspan><tspan class="key">Commits</tspan>:<tspan class="cc" id="commit_data_dots"> .................... </tspan><tspan class="value" id="commit_data">113</tspan> | <tspan class="key">Followers</tspan>:<tspan class="cc" id="follower_data_dots"> ......... </tspan><tspan class="value" id="follower_data">1</tspan>
 <tspan x="390" y="510" class="cc">. </tspan><tspan class="key">Lines of Code on GitHub</tspan>:<tspan class="cc" id="loc_data_dots">. </tspan><tspan class="value" id="loc_data">284,358</tspan> ( <tspan class="addColor" id="loc_add">306,694</tspan><tspan class="addColor">++</tspan>, <tspan id="loc_del_dots"> </tspan><tspan class="delColor" id="loc_del">22,336</tspan><tspan class="delColor">--</tspan> )
 </text>
 </svg>
